@@ -22,6 +22,8 @@ All basic and advanced tasks can be done by executing commands. The commands are
 The ls command is used to display a list of content of a directory.
 
  Syntax: ls
+ ![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/497c2e98-4426-4a9b-b7aa-2b63927bc758)
+
 
 
 ### 2)	pwd Command
@@ -29,6 +31,8 @@ The ls command is used to display a list of content of a directory.
 The pwd command is used to display the location of the current working directory.
 
 Syntax: pwd
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/910c4d92-a9dc-4831-b0ce-75dbda72f2c4)
+
 
  
 ### 3)	mkdir Command
@@ -36,6 +40,8 @@ Syntax: pwd
 The mkdir command is used to create a new directory under any directory.
 
 Syntax: mkdir <directory name>
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/6fcff120-c4fe-428b-b4c3-344c0f4300f1)
+
 
 
 ### 4)	rmdir Command
@@ -43,6 +49,8 @@ Syntax: mkdir <directory name>
 The rmdir command is used to delete a directory.
 
 Syntax: rmdir <directory name>
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/547afe45-9d26-47c6-b060-b2be986412d4)
+
 
 
 ### 5)	cd Command
@@ -50,6 +58,8 @@ Syntax: rmdir <directory name>
 The cd command is used to change the current directory.
 
 Syntax: cd <directory name>
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/53d7939b-b241-456c-8c23-34a9a03a7760)
+
 
 
 ### 6)	cat Command
@@ -57,6 +67,8 @@ Syntax: cd <directory name>
 The cat command is a multi-purpose utility in the Linux system. It can be used to create a file, display content of the file, copy the content of one file to another file, and more.
 
 Syntax: cat [OPTION]... [FILE]..
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/076e0080-9459-47fd-8059-0bb4a7c9581e)
+
 
  
 ### 7)	cp Command
@@ -64,6 +76,8 @@ Syntax: cat [OPTION]... [FILE]..
 The cp command is used to copy a file or directory.
 
 Syntax: cp <existing file name> <new file name>
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/63ab4a22-db83-45c4-a4e9-fbd604581939)
+
 
 
 
@@ -72,6 +86,8 @@ Syntax: cp <existing file name> <new file name>
 The gedit is a general-purpose text editor. It can be used to create and edit all kinds of text files.
 
 Syntax: gedit file_name
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/dd8f1ef8-03b3-4d8f-bcf0-3473ae396b03)
+
 
 
 ### 9)	su Command
@@ -79,6 +95,8 @@ Syntax: gedit file_name
 The su command provides administrative access to another user. In other words, it allows access of the Linux shell to another user.
 
 Syntax: su <user name>
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/5477ae91-9764-42cd-a83d-530d510c507c)
+
 
 
 ### 10)	mv Command
@@ -86,6 +104,8 @@ Syntax: su <user name>
 The mv command is used to move a file or a directory form one location to another location.
 
 Syntax: mv <file name> <directory path>
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/d16017dd-87e2-4011-819d-18075d589be2)
+
 
  
 ## 11)	rename Command
@@ -93,6 +113,7 @@ Syntax: mv <file name> <directory path>
 The rename command is used to rename files. It is useful for renaming a large group of files.
 
 Syntax: rename 's/old-name/new-name/' files
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/28fd1efa-17e7-4321-93be-bab1aa13a5ee)
 
 
 ### 12)	head Command
@@ -100,6 +121,8 @@ Syntax: rename 's/old-name/new-name/' files
 The head command is used to display the content of a file. It displays the first 10 lines of a file.
 
 Syntax: head <file name>
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/c12db396-5124-4505-8f08-9e0c8243bdf1)
+
 
 
 ### 13)	tail Command
@@ -107,6 +130,8 @@ Syntax: head <file name>
 The tail command is similar to the head command. The difference between both commands is that it displays the last ten lines of the file content. It is useful for reading the error message.
 
 Syntax: tail <file name>
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/bf048c39-5107-4063-993e-f5b3b437cefb)
+
 
  
 ### 14)	id Command
@@ -114,6 +139,7 @@ Syntax: tail <file name>
 The id command is used to display the user ID (UID) and group ID (GID).
 
 Syntax: id
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/49703d17-5f9a-45a9-9d72-a757b51fa48b)
 
 
 ### 15)	grep Command
@@ -121,6 +147,7 @@ Syntax: id
 The grep is the most powerful and used filter in a Linux system. The 'grep' stands for "global regular expression print." It is useful for searching the content from a file. Generally, it is used with the pipe.
 
 Syntax: command | grep <search word>
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/f8c9245f-ac7d-41a1-81a1-3961cf7e4e13)
 
 
 ### 16)	tr Command
@@ -128,12 +155,15 @@ Syntax: command | grep <search word>
 The tr command is used to translate the file content like from lower case to upper case.
 
 Syntax: command | tr <'old'> <'new'>
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/510048cf-c3d3-41af-9f32-9b30cf0d6f26)
+
 
 ### 17)	chmod Command
 
 The chmod command is used to change the access mode of a file (i.e., read, write or execute)
 
 Syntax: chmod<options><permissions><file_name>
+
 
 ### 18)	tar Command
 
@@ -147,12 +177,16 @@ $ tar xvzf file.tar *.c
 The chown command is used to change ownership.
 
 Syntax: chown owner_name file_name
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/46221762-4356-4781-acde-07733c4a3368)
+
 
 ### 20)	make Command
 
 The make command is used for building and maintaining group of program.
 
 Syntax: make [-f makefile][options]…….[targets]….
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/b89be45e-48a7-405f-985e-5656cb0cad76)
+
 
 
 ### 21)	ifconfig Command
@@ -160,6 +194,8 @@ Syntax: make [-f makefile][options]…….[targets]….
 The ifconfig command is used to configure kernel-resident network interface.
 
 Syntax: ifconfig[options][interface]
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/36a7939f-9df9-484f-a449-69bf95832c4c)
+
 
 ### 22)	chmod 777 Command
 
@@ -167,12 +203,15 @@ The chmod 777 command gives read, write and execute permission to the owner, gro
 
 Syntax: chmod 777 file_name
 $chmod -R 777 /path/to/file/or/folder
+
  
 ### 23)	host Command
 
 The host command is used to display the IP address for a given domain name and vice versa. It performs the DNS lookups for the DNS Query.
 
 Syntax: host <domain name> or <ip address>
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/a854b770-48a3-4a55-a5b2-935741e3e4ef)
+
 
 
 ### 24)	gzip Command
@@ -180,6 +219,8 @@ Syntax: host <domain name> or <ip address>
 The gzip command is used to truncate the file size. It is a compressing tool. It replaces the original file by the compressed file having '.gz' extension.
 
 Syntax: gzip <file1> <file2> <file3>..
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/def677c6-dee3-467d-9b70-7fb221417739)
+
 
 
 ### 25)	sort Command
@@ -187,6 +228,8 @@ Syntax: gzip <file1> <file2> <file3>..
 The sort command is used to sort files in alphabetical order.
 
 Syntax:sort <file name>
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/6b6f5193-d982-4739-9581-92bab8953c66)
+
 
  
 ### 26)	cal Command
@@ -194,6 +237,8 @@ Syntax:sort <file name>
 The cal command is used to display the current month's calendar with the current date highlighted.
 
 Syntax: cal
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/0ae34c72-ba3d-4660-a52f-185c33d6e93f)
+
 
 
 ### 27)	clear Command
@@ -201,6 +246,8 @@ Syntax: cal
 Linux clear command is used to clear the terminal screen.
 
 Syntax: clear
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/b421bd73-d986-4544-8285-a47aa49ecd89)
+
 
 
 ### 28)	mail Command
@@ -208,6 +255,8 @@ Syntax: clear
 The mail command is used to send emails from the command line.
 
 Syntax: mail -s "Subject" <recipient address>
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/13a98d92-048c-4e70-bcc2-8ed7b9278d4a)
+
 
  
 ### 29)	df Command
@@ -215,6 +264,8 @@ Syntax: mail -s "Subject" <recipient address>
 The df command is used to display the disk space used in the file system. It displays the output as in the number of used blocks, available blocks, and the mounted directory.
 
 Syntax: df
+![image](https://github.com/Harishragav123/Ex-01-Linux-Commands/assets/135584731/a9b24a68-cc33-42cc-8718-d7ce43833b76)
+
 
 ### 30)	find Command
 
